@@ -102,7 +102,7 @@ const Testimonial = () => {
                 <p>
                   I visited USA 4 times, mostly working in restaurant and spent
                   vacation in New York, Boston ,New Jersey , Miami, ship cruise
-                  in to Bahamas
+                  to Bahamas.
                 </p>
               </div>
               <div className={`${classes.testimonial__item}`}>
