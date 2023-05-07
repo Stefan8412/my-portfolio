@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle"
 import { Container, Row, Col } from "reactstrap"
 import Image from "next/image"
 import Link from "next/link"
-import heroImg from "../../public/images/Fdeadline.gif"
+import heroImg from "../../public/images/deadline.gif"
 import classes from "../../styles/hero.module.css"
 
 const Hero = () => {
