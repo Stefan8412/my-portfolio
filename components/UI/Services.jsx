@@ -31,7 +31,7 @@ const Services = () => {
             <p>
               In case you need help with hosting, created simple webapp or
               e-shop let me know. Currently mostly working with ReactJS but i
-              don't have a problem to use any CMS like Drupal, Wordpress or
+              dont have a problem to use any CMS like Drupal, Wordpress or
               ecommerce platform like Shopify.
             </p>
           </Col>
