@@ -1,15 +1,15 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
-import SectionSubtitle from "./SectionSubtitle";
-import Image from "next/image";
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
+import Link from "next/link"
+import SectionSubtitle from "./SectionSubtitle"
+import Image from "next/image"
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from "../../public/images/img-01.jpg"
+import img02 from "../../public/images/img02.jpg"
+import img03 from "../../public/images/img-03.jpg"
+import img04 from "../../public/images/hero.jpg"
 
-import classes from "../../styles/about.module.css";
+import classes from "../../styles/about.module.css"
 
 const About = () => {
   return (
@@ -109,7 +109,7 @@ const About = () => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About
