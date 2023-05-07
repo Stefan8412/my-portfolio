@@ -47,12 +47,18 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  Working as Frontend developer on IBM internal project IBM
+                  documentation{" "}
+                  <a
+                    href="https://www.ibm.com/docs/en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    IBM documentation
+                  </a>
+                  , with React and Carbon(design system for IBM web and product,
+                  like styles,components and guidlines used for crating unified
+                  UI).
                 </p>
               </div>
 
@@ -73,12 +79,8 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  Creating small websites in Drupal or Wordpress , also some
+                  animations created in After Effects
                 </p>
               </div>
 
@@ -98,12 +100,9 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  I visited USA 4 times, mostly working in restaurant and spent
+                  vacation in New York, Boston ,New Jersey , Miami, ship cruise
+                  in to Bahamas
                 </p>
               </div>
               <div className={`${classes.testimonial__item}`}>
@@ -122,12 +121,9 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  I was volunteer during World Hockey Championship in
+                  Kosice(provide technical support for journalist ). In IBM i
+                  helped with sending christmas presents to orphanage.
                 </p>
               </div>
             </Slider>

@@ -1,12 +1,16 @@
-import React from "react";
-import classes from "../../styles/form.module.css";
+import React from "react"
+import classes from "../../styles/form.module.css"
 
 const Form = () => {
   const submitHandler = () => {
-    e.preventDefault();
-  };
+    e.preventDefault()
+  }
   return (
-    <form className={`${classes.form}`} onSubmit={submitHandler}>
+    <form
+      className={`${classes.form}`}
+      onSubmit={submitHandler}
+      data-netlify="true"
+    >
       <div className={`${classes.form__group}`}>
         <input type="text" placeholder="Your Name" required />
       </div>
@@ -21,7 +25,7 @@ const Form = () => {
         Send
       </button>
     </form>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form
