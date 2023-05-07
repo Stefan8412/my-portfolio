@@ -57,7 +57,7 @@ const Testimonial = () => {
                     IBM documentation
                   </a>
                   , with React and Carbon(design system for IBM web and product,
-                  like styles,components and guidlines used for crating unified
+                  like styles,components and guidlines used for creating unified
                   UI).
                 </p>
               </div>
@@ -80,7 +80,8 @@ const Testimonial = () => {
 
                 <p>
                   Creating small websites in Drupal or Wordpress , also some
-                  animations created in After Effects
+                  animations created in After Effects for documentary movies.You
+                  can check animations on my instagram account.
                 </p>
               </div>
 
