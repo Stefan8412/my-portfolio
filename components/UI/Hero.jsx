@@ -19,12 +19,12 @@ const Hero = () => {
               <h5 className="mb-4">Frontend Developer</h5>
               <p>I am a Frontend Developer,live in Presov, Slovakia. </p>
               <div className="mt-5">
-                <button className="primary__btn">
+                {/* <button className="primary__btn">
                   <Link href="#">Hire me</Link>
-                </button>
+                </button> */}
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="https://resume.io/r/8KZ5st5f7">Download CV</Link>
                 </button>
               </div>
             </div>

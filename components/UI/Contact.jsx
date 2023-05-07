@@ -14,10 +14,10 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              In case you need help with hosting, created simple webapp or
-              e-shop you can contact me . I love all kind of sports, I like
-              running , playing tennis , ice skating ..in case you need sparring
-              partner you can contact me also.
+              Contact me regards support for your project or create a new one. I
+              love all kind of sports, I like running , playing tennis , ice
+              skating... in case you need sparring partner you can contact me
+              also.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>

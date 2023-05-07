@@ -1,8 +1,8 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/services.module.css";
-import ServicesItem from "./ServicesItem";
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
+import SectionSubtitle from "./SectionSubtitle"
+import classes from "../../styles/services.module.css"
+import ServicesItem from "./ServicesItem"
 
 const Services = () => {
   return (
@@ -29,17 +29,16 @@ const Services = () => {
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
+              In case you need help with hosting, created simple webapp or
+              e-shop let me know. Currently mostly working with ReactJS but i
+              don't have a problem to use any CMS like Drupal, Wordpress or
+              ecommerce platform like Shopify.
             </p>
           </Col>
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

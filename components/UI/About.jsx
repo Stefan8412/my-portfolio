@@ -21,11 +21,10 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              In case i am not working on any project i am trying to learn new
+              things. Understand more deeply Javascript(ReactJS), solve
+              technical assessment, attending technical meetup near by me or
+              read books.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
