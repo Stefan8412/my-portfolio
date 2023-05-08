@@ -12,7 +12,6 @@ const Form = () => {
       name="hancarform"
       method="post"
       data-netlify="true"
-      hidden
     >
       <div className={`${classes.form__group}`}>
         <input type="text" placeholder="Your Name" name="name" required />
