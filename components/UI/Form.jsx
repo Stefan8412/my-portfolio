@@ -9,7 +9,7 @@ const Form = () => {
     <form
       className={`${classes.form}`}
       onSubmit={submitHandler}
-      action="/#contact"
+      action="/hancar.sk"
       name="hancarform"
       method="POST"
       data-netlify="true"
