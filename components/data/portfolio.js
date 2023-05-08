@@ -20,7 +20,7 @@ const portfolio = [
   {
     id: "03",
     title: "To be updated",
-    img: "/images/portfolio-03.jpg",
+    img: "/images/sopranos.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -29,7 +29,7 @@ const portfolio = [
   {
     id: "04",
     title: "To be updated",
-    img: "/images/portfolio-04.jpg",
+    img: "/images/sopranos.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -38,7 +38,7 @@ const portfolio = [
   {
     id: "05",
     title: "To be updated",
-    img: "/images/portfolio-05.jpg",
+    img: "/images/sopranos.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
