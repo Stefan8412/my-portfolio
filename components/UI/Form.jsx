@@ -13,13 +13,19 @@ const Form = () => {
       data-netlify="true"
     >
       <div className={`${classes.form__group}`}>
-        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Your Name" name="yourname" required />
       </div>
       <div className={`${classes.form__group}`}>
-        <input type="email" placeholder="Email Address" required />
+        <input type="email" placeholder="Email Address" name="email" required />
       </div>
       <div className={`${classes.form__group}`}>
-        <textarea type="text" rows={5} placeholder="Message" required />
+        <textarea
+          type="text"
+          rows={5}
+          placeholder="Message"
+          name="message"
+          required
+        />
       </div>
 
       <button className="primary__btn" type="submit">
