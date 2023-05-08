@@ -10,10 +10,12 @@ const Form = () => {
       className={`${classes.form}`}
       onSubmit={submitHandler}
       name="hancarform"
+      method="post"
       data-netlify="true"
+      hidden
     >
       <div className={`${classes.form__group}`}>
-        <input type="text" placeholder="Your Name" name="yourname" required />
+        <input type="text" placeholder="Your Name" name="name" required />
       </div>
       <div className={`${classes.form__group}`}>
         <input type="email" placeholder="Email Address" name="email" required />
