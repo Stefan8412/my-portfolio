@@ -21,7 +21,7 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              In case i am not working on any project i am trying to learn new
+              When i am not working on any project i am trying to learn new
               things. Understand more deeply Javascript(ReactJS), solve
               technical assessment, attending technical meetup near by me or
               read books.
