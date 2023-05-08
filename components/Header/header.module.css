@@ -26,7 +26,7 @@
 }
 
 .nav__menu a {
-  color: #212121;
+  color: #808dad;
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
@@ -35,7 +35,7 @@
 }
 
 .nav__menu a:hover {
-  color: #292d39;
+  color: rgb(0, 116, 217);
 }
 
 .nav__menu a:first-child {

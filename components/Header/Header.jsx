@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from "react"
+import Image from "next/image"
 
 import { Container } from "reactstrap"
 import classes from "./header.module.css"
 import Link from "next/link"
+import imglogo from "../../public/images/hslogo.png"
 
 const NAV__LINK = [
   {
@@ -58,8 +60,11 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-            <h1>
+            {/* <h1>
               <span>S</span>H
+            </h1> */}
+            <h1>
+              <Image src={imglogo} alt="about-img" width="40" height="35" />
             </h1>
           </div>
 
