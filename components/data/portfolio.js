@@ -13,7 +13,7 @@ const portfolio = [
     title: "Super store",
     img: "/images/portfolio-02.jpg",
     category: "Mobile App",
-    keyword: ["App", "ForFun"],
+    keyword: ["eshop", "stripe", "ForFun"],
     liveUrl: "https://hancar-eshop.netlify.app/",
   },
 
@@ -22,8 +22,8 @@ const portfolio = [
     title: "AirBnb clone",
     img: "/images/portfolio-03.jpg",
     category: "Mobile App",
-    keyword: ["scrimba", "props", "map to get data", "react with vite"],
-    liveUrl: "rbnbclone.netlify.app",
+    keyword: ["scrimba", "props", "map to get data", "vite"],
+    liveUrl: "https://rbnbclone.netlify.app/",
   },
 
   {
