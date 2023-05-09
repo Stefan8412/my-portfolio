@@ -96,6 +96,28 @@ const Testimonial = () => {
                   />
 
                   <div>
+                    <h6>T-systems</h6>
+                    <h6>Network engineer</h6>
+                  </div>
+                </div>
+
+                <p>
+                  I have provided support to customers regards network related
+                  issues, mostly on firewall devices{" "}
+                </p>
+              </div>
+
+              <div className={`${classes.testimonial__item}`}>
+                <div className={`${classes.testimonial__client}`}>
+                  <Image
+                    alt="client-img"
+                    src="/images/hero.jpg"
+                    width="50"
+                    height="50"
+                    className=" rounded-2"
+                  />
+
+                  <div>
                     <h6>Work and Travel</h6>
                     <h6>Student worker</h6>
                   </div>
