@@ -23,7 +23,7 @@ const portfolio = [
     img: "/images/portfolio-03.jpg",
     category: "Mobile App",
     keyword: ["scrimba", "props", "map to get data", "react with vite"],
-    liveUrl: "https://merry-pastelito-1387be.netlify.app/",
+    liveUrl: "rbnbclone.netlify.app",
   },
 
   {
