@@ -55,7 +55,7 @@ const Portfolio = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Web Design")}
               >
-                Others projects
+                Others
               </button>
             </div>
           </Col>
