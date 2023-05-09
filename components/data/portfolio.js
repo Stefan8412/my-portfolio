@@ -19,22 +19,30 @@ const portfolio = [
 
   {
     id: "03",
-    title: "To be updated",
-    img: "/images/sopranos.jpg",
+    title: "AirBnb clone",
+    img: "/images/portfolio-03.jpg",
     category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    keyword: ["scrimba", "props", "map to get data", "react with vite"],
+    liveUrl: "https://merry-pastelito-1387be.netlify.app/",
   },
 
   {
     id: "04",
     title: "To be updated",
     img: "/images/sopranos.jpg",
-    category: "Mobile App",
+    category: "Web Design",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
   },
 
+  {
+    id: "05",
+    title: "To be updated",
+    img: "/images/sopranos.jpg",
+    category: "Web Design",
+    keyword: ["Mobile", "App", "UI-UX"],
+    liveUrl: "#",
+  },
   {
     id: "05",
     title: "To be updated",
