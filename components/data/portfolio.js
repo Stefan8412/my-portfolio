@@ -28,11 +28,11 @@ const portfolio = [
 
   {
     id: "04",
-    title: "To be updated",
-    img: "/images/sopranos.jpg",
+    title: "BlackJack",
+    img: "/images/portfolio-06.png",
     category: "Web Design",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    keyword: ["arrays", "objects", "if-else", "for loops"],
+    liveUrl: "https://starlit-biscuit-5f76b9.netlify.app/",
   },
 
   {
