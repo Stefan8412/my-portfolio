@@ -24,7 +24,9 @@ const Hero = () => {
                 </button> */}
 
                 <button className="secondary__btn">
-                  <Link href="https://resume.io/r/8KZ5st5f7">Download CV</Link>
+                  <Link href="https://drive.google.com/file/d/1f1T4AnnB4XrleX-KksOcMUepo8rPjsLw/view?usp=share_link">
+                    Download CV
+                  </Link>
                 </button>
               </div>
             </div>
