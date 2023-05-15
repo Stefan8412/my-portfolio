@@ -37,14 +37,22 @@ const portfolio = [
 
   {
     id: "05",
-    title: "In progress",
+    title: "Random meme",
     img: "/images/portfolio-07.png",
     category: "Web Design",
     keyword: ["useState", "useEffect", "props", "state"],
     liveUrl: "https://meme246.netlify.app",
   },
   {
-    id: "05",
+    id: "06",
+    title: "Notes",
+    img: "/images/portfolio-08.png",
+    category: "Web Design",
+    keyword: ["vite", "firebase", "localstorage"],
+    liveUrl: "notessh.netlify.app",
+  },
+  {
+    id: "07",
     title: "To be updated",
     img: "/images/sopranos.jpg",
     category: "Mobile App",
