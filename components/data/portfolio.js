@@ -49,7 +49,7 @@ const portfolio = [
     img: "/images/portfolio-08.png",
     category: "Web Design",
     keyword: ["vite", "firebase", "localstorage"],
-    liveUrl: "notessh.netlify.app",
+    liveUrl: "https://notessh.netlify.app",
   },
   {
     id: "07",
