@@ -59,6 +59,14 @@ const portfolio = [
     keyword: ["to be updated"],
     liveUrl: "#",
   },
-]
+  {
+    id: "08",
+    title: "Add to Cart",
+    img: "/images/portfolio-10.png",
+    category: "Web Design",
+    keyword: ["firebase", "js", "html", "DOM"],
+    liveUrl: "https://cartremember.netlify.app/",
+  },
+];
 
-export default portfolio
+export default portfolio;
