@@ -53,11 +53,11 @@ const portfolio = [
   },
   {
     id: "07",
-    title: "To be updated",
+    title: "Search movie",
     img: "/images/sopranos.jpg",
     category: "Mobile App",
-    keyword: ["to be updated"],
-    liveUrl: "#",
+    keyword: ["movie", "vite", "favorites"],
+    liveUrl: "https://movie-app-code.netlify.app/",
   },
   {
     id: "08",
