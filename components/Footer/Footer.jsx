@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import { Container, Row, Col } from "reactstrap"
-import classes from "./footer.module.css"
-import Link from "next/link"
+import { Container, Row, Col } from "reactstrap";
+import classes from "./footer.module.css";
+import Link from "next/link";
 
 const NAV__LINK = [
   {
@@ -25,11 +25,15 @@ const NAV__LINK = [
     path: "#contact",
     display: "Contact",
   },
-]
+  {
+    path: "https://sensational-travesseiro-b924f3.netlify.app/",
+    display: "Blog",
+  },
+];
 
 const Footer = () => {
-  const date = new Date()
-  const year = date.getFullYear()
+  const date = new Date();
+  const year = date.getFullYear();
 
   return (
     <footer>
@@ -67,7 +71,7 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

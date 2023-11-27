@@ -1,10 +1,10 @@
-import React, { useRef, useEffect } from "react"
-import Image from "next/image"
+import React, { useRef, useEffect } from "react";
+import Image from "next/image";
 
-import { Container } from "reactstrap"
-import classes from "./header.module.css"
-import Link from "next/link"
-import imglogo from "../../public/images/hslogo.png"
+import { Container } from "reactstrap";
+import classes from "./header.module.css";
+import Link from "next/link";
+import imglogo from "../../public/images/hslogo.png";
 
 const NAV__LINK = [
   {
@@ -24,35 +24,39 @@ const NAV__LINK = [
     display: "Portfolio",
   },
   {
+    path: "https://sensational-travesseiro-b924f3.netlify.app/",
+    display: "Blog",
+  },
+  {
     path: "#contact",
     display: "Contact",
   },
-]
+];
 
 const Header = () => {
-  const headerRef = useRef(null)
+  const headerRef = useRef(null);
 
-  const menuRef = useRef(null)
+  const menuRef = useRef(null);
 
   const headerFunc = () => {
     if (
       document.body.scrollTop > 80 ||
       document.documentElement.scrollTop > 80
     ) {
-      headerRef.current.classList.add(`${classes.header__shrink}`)
+      headerRef.current.classList.add(`${classes.header__shrink}`);
     } else {
-      headerRef.current.classList.remove(`${classes.header__shrink}`)
+      headerRef.current.classList.remove(`${classes.header__shrink}`);
     }
-  }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", headerFunc)
+    window.addEventListener("scroll", headerFunc);
 
-    return () => window.removeEventListener("scroll", headerFunc)
-  }, [])
+    return () => window.removeEventListener("scroll", headerFunc);
+  }, []);
 
   const toggleMenu = () =>
-    menuRef.current.classList.toggle(`${classes.menu__active}`)
+    menuRef.current.classList.toggle(`${classes.menu__active}`);
 
   return (
     <header className={`${classes.header}`} ref={headerRef}>
@@ -96,7 +100,7 @@ const Header = () => {
         </div>
       </Container>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
