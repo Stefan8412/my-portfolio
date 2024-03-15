@@ -1,10 +1,10 @@
-import React from "react"
-import SectionSubtitle from "./SectionSubtitle"
-import { Container, Row, Col } from "reactstrap"
-import Image from "next/image"
-import Link from "next/link"
-import heroImg from "../../public/images/deadline.gif"
-import classes from "../../styles/hero.module.css"
+import React from "react";
+import SectionSubtitle from "./SectionSubtitle";
+import { Container, Row, Col } from "reactstrap";
+import Image from "next/image";
+import Link from "next/link";
+import heroImg from "../../public/images/deadline.gif";
+import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
   return (
@@ -23,11 +23,11 @@ const Hero = () => {
                   <Link href="#">Hire me</Link>
                 </button> */}
 
-                <button className="secondary__btn">
+                {/* <button className="secondary__btn">
                   <Link href="https://drive.google.com/file/d/1f1T4AnnB4XrleX-KksOcMUepo8rPjsLw/view?usp=share_link">
                     Download CV
                   </Link>
-                </button>
+                </button> */}
               </div>
             </div>
           </Col>
@@ -81,7 +81,7 @@ const Hero = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
